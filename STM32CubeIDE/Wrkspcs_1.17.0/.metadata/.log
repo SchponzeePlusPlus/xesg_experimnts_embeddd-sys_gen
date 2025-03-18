@@ -1,0 +1,579 @@
+!SESSION 2025-02-22 13:47:03.511 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_AU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-22 13:51:57.673
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-22 13:51:57.674
+!MESSAGE Log4j2 initialized with config file /home/psyponzayzonzay/Documents/Wrkspcs/STM32CubeIDE/workspace_1.17.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-22 13:52:00.347
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-22 13:56:19.619
+!MESSAGE Indexed 'test00' (3 sources, 53 headers) in 2.12 sec: 1,950 declarations; 2,836 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2025-02-22 13:58:17.590 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_AU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-22 13:58:28.408
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-22 13:58:28.409
+!MESSAGE Log4j2 initialized with config file /home/psyponzayzonzay/Documents/Wrkspcs/STM32CubeIDE/workspace_1.17.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-22 13:58:30.873
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-02-22 14:01:33.399 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_AU
+Command-line arguments:  -data file:/home/psyponzayzonzay/Documents/Wrkspcs/STM32CubeIDE/workspace_1.17.0/ -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-22 14:01:37.358
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-22 14:01:37.359
+!MESSAGE Log4j2 initialized with config file /home/psyponzayzonzay/Documents/Wrkspcs/STM32CubeIDE/workspace_1.17.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-22 14:01:40.544
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.411
+!MESSAGE Orphaned CDT build configuration [fr.ac6.managedbuild.config.gnu.cross.exe.debug.1919708717]: parent extension cfg [fr.ac6.managedbuild.config.gnu.cross.exe.debug] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.412
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.prefix" for "fr.ac6.managedbuild.option.gnu.cross.prefix.1543732792"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.412
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.mcu" for "fr.ac6.managedbuild.option.gnu.cross.mcu.427386698"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.413
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.board" for "fr.ac6.managedbuild.option.gnu.cross.board.2105697269"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.413
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.instructionSet" for "fr.ac6.managedbuild.option.gnu.cross.instructionSet.2045944122"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.413
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.fpu" for "fr.ac6.managedbuild.option.gnu.cross.fpu.2135689785"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.413
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.floatabi" for "fr.ac6.managedbuild.option.gnu.cross.floatabi.1750995954"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.415
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.662160482"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.416
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.misc.other" for "fr.ac6.managedbuild.gnu.c.compiler.option.misc.other.1124964607"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-22 14:38:55.417
+!MESSAGE Missing superclass "fr.ac6.managedbuild.tool.gnu.cross.c.linker.script" for "fr.ac6.managedbuild.tool.gnu.cross.c.linker.script.1548781211"
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 2 0 2025-02-22 14:38:55.634
+!MESSAGE Unknown value type "" for id gnu.c.link.option.libs on tool fr.ac6.managedbuild.tool.gnu.cross.c.linker
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: Unknown serialized value type 
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.deserializeValueType(AbstractCubeIDEProjectConfigurator.java:535)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertTool(AbstractCubeIDEProjectConfigurator.java:567)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertBuildConfiguration(AbstractCubeIDEProjectConfigurator.java:453)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.configure(AbstractCubeIDEProjectConfigurator.java:190)
+	at com.st.stm32cube.ide.mcu.converters.sw4stm32.SW4STM32ToCubeIDEProjectConfigurator.configure(SW4STM32ToCubeIDEProjectConfigurator.java:710)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.importProjectAndChildrenRecursively(SmartImportJob.java:461)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob$1.run(SmartImportJob.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 2 0 2025-02-22 14:38:55.634
+!MESSAGE Unknown value type "" for id gnu.c.link.option.paths on tool fr.ac6.managedbuild.tool.gnu.cross.c.linker
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: Unknown serialized value type 
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.deserializeValueType(AbstractCubeIDEProjectConfigurator.java:535)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertTool(AbstractCubeIDEProjectConfigurator.java:567)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertBuildConfiguration(AbstractCubeIDEProjectConfigurator.java:453)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.configure(AbstractCubeIDEProjectConfigurator.java:190)
+	at com.st.stm32cube.ide.mcu.converters.sw4stm32.SW4STM32ToCubeIDEProjectConfigurator.configure(SW4STM32ToCubeIDEProjectConfigurator.java:710)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.importProjectAndChildrenRecursively(SmartImportJob.java:461)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob$1.run(SmartImportJob.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 4 0 2025-02-22 14:38:55.635
+!MESSAGE Option fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.noexceptions is no longer supported
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 4 0 2025-02-22 14:38:55.635
+!MESSAGE Option fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.nortti is no longer supported
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-22 14:39:03.238
+!MESSAGE Indexed 'CRC_Example' (14 sources, 82 headers) in 2.21 sec: 4,580 declarations; 14,454 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+!SESSION 2025-02-24 22:47:28.653 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_AU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-24 22:47:37.505
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-24 22:47:37.506
+!MESSAGE Log4j2 initialized with config file /home/psyponzayzonzay/Documents/Wrkspcs/STM32CubeIDE/workspace_1.17.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-24 22:47:44.086
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2025-02-24 22:48:25.239
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to connect to repository https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/2.1.0/content.xml.xz
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:567)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:447)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:571)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:571)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 24 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-02-24 22:48:25.243
+!MESSAGE Unable to connect to repository https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/2.1.0/content.xml.xz
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:567)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:447)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:571)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:571)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 24 more
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2025-02-24 22:48:25.245
+!MESSAGE Unable to read repository at https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1.
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to connect to repository https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/2.1.0/content.xml.xz
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.getLocalFile(XZedSimpleMetadataRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.metadata.repository.XZedSimpleMetadataRepositoryFactory.load(XZedSimpleMetadataRepositoryFactory.java:80)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.addChild(CompositeMetadataRepository.java:161)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository.<init>(CompositeMetadataRepository.java:93)
+	at org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepositoryFactory.load(CompositeMetadataRepositoryFactory.java:124)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:791)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:689)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+Caused by: java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:567)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:447)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:571)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:571)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 24 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2025-02-24 22:48:25.246
+!MESSAGE Unable to connect to repository https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/2.1.0/content.xml.xz
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:567)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:447)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:571)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:571)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 24 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2025-02-24 22:48:25.256
+!MESSAGE Unable to connect to repository https://sw-center.st.com/stm32cubeide/updatesite1/compositeContent.xml
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:567)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:447)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:571)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:571)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 24 more
+!SESSION 2025-02-24 23:05:38.924 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_AU
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-24 23:05:45.556
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-24 23:05:45.557
+!MESSAGE Log4j2 initialized with config file /home/psyponzayzonzay/Documents/Wrkspcs/STM32CubeIDE/workspace_1.17.0/.metadata/.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-24 23:06:07.680
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.388
+!MESSAGE Orphaned CDT build configuration [fr.ac6.managedbuild.config.gnu.cross.exe.debug.176465621]: parent extension cfg [fr.ac6.managedbuild.config.gnu.cross.exe.debug] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.internal.core.model.CProject.computeSourceRoots(CProject.java:610)
+	at org.eclipse.cdt.internal.core.model.CProject.computeChildren(CProject.java:631)
+	at org.eclipse.cdt.internal.core.model.CProject.buildStructure(CProject.java:595)
+	at org.eclipse.cdt.internal.core.model.Openable.generateInfos(Openable.java:264)
+	at org.eclipse.cdt.internal.core.model.CElement.openWhenClosed(CElement.java:428)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:306)
+	at org.eclipse.cdt.internal.core.model.CElement.getElementInfo(CElement.java:296)
+	at org.eclipse.cdt.internal.core.model.Parent.getChildren(Parent.java:57)
+	at org.eclipse.cdt.internal.core.model.CProject.getSourceRoots(CProject.java:471)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:342)
+	at org.eclipse.cdt.internal.core.model.CModelManager.create(CModelManager.java:270)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.createElement(DeltaProcessor.java:90)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:453)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.traverseDelta(DeltaProcessor.java:471)
+	at org.eclipse.cdt.internal.core.model.DeltaProcessor.processResourceDelta(DeltaProcessor.java:433)
+	at org.eclipse.cdt.internal.core.model.CModelManager.resourceChanged(CModelManager.java:931)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:321)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:311)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:174)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:458)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1586)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:50)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.390
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.prefix" for "fr.ac6.managedbuild.option.gnu.cross.prefix.448316081"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.390
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.mcu" for "fr.ac6.managedbuild.option.gnu.cross.mcu.1341170497"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.390
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.board" for "fr.ac6.managedbuild.option.gnu.cross.board.794181453"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.390
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.instructionSet" for "fr.ac6.managedbuild.option.gnu.cross.instructionSet.1482199109"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.390
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.fpu" for "fr.ac6.managedbuild.option.gnu.cross.fpu.1584717601"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.391
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.floatabi" for "fr.ac6.managedbuild.option.gnu.cross.floatabi.394401904"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.391
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.799170726"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.391
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.misc.other" for "fr.ac6.managedbuild.gnu.c.compiler.option.misc.other.39894563"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.396
+!MESSAGE Missing superclass "fr.ac6.managedbuild.tool.gnu.cross.c.linker.script" for "fr.ac6.managedbuild.tool.gnu.cross.c.linker.script.1997230070"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.524
+!MESSAGE Orphaned CDT build configuration [fr.ac6.managedbuild.config.gnu.cross.exe.debug.176465621]: parent extension cfg [fr.ac6.managedbuild.config.gnu.cross.exe.debug] not found
+!STACK 0
+java.lang.Exception
+	at org.eclipse.cdt.managedbuilder.core.ManagedBuilderCorePlugin.error(ManagedBuilderCorePlugin.java:246)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.loadFromProject(Configuration.java:879)
+	at org.eclipse.cdt.managedbuilder.internal.core.Configuration.<init>(Configuration.java:419)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.load(ConfigurationDataProvider.java:405)
+	at org.eclipse.cdt.managedbuilder.internal.dataprovider.ConfigurationDataProvider.loadConfiguration(ConfigurationDataProvider.java:573)
+	at org.eclipse.cdt.internal.core.settings.model.CConfigurationDescriptionCache.loadData(CConfigurationDescriptionCache.java:139)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescription.loadDatas(CProjectDescription.java:199)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.loadProjectDescription(XmlProjectDescriptionStorage.java:509)
+	at org.eclipse.cdt.internal.core.settings.model.xml.XmlProjectDescriptionStorage.getProjectDescription(XmlProjectDescriptionStorage.java:239)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescriptionInternal(CProjectDescriptionManager.java:426)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:408)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:402)
+	at org.eclipse.cdt.internal.core.settings.model.CProjectDescriptionManager.getProjectDescription(CProjectDescriptionManager.java:395)
+	at org.eclipse.cdt.core.resources.RefreshScopeManager.loadSettings(RefreshScopeManager.java:474)
+	at org.eclipse.cdt.core.resources.RefreshScopeManager.loadSettings(RefreshScopeManager.java:457)
+	at org.eclipse.cdt.core.resources.RefreshScopeManager.<init>(RefreshScopeManager.java:111)
+	at org.eclipse.cdt.core.resources.RefreshScopeManager.getInstance(RefreshScopeManager.java:93)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.setRefreshPolicy(AbstractCubeIDEProjectConfigurator.java:945)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.configure(AbstractCubeIDEProjectConfigurator.java:179)
+	at com.st.stm32cube.ide.mcu.converters.sw4stm32.SW4STM32ToCubeIDEProjectConfigurator.configure(SW4STM32ToCubeIDEProjectConfigurator.java:710)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.importProjectAndChildrenRecursively(SmartImportJob.java:461)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob$1.run(SmartImportJob.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.524
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.prefix" for "fr.ac6.managedbuild.option.gnu.cross.prefix.448316081"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.524
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.mcu" for "fr.ac6.managedbuild.option.gnu.cross.mcu.1341170497"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.525
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.board" for "fr.ac6.managedbuild.option.gnu.cross.board.794181453"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.525
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.instructionSet" for "fr.ac6.managedbuild.option.gnu.cross.instructionSet.1482199109"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.525
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.fpu" for "fr.ac6.managedbuild.option.gnu.cross.fpu.1584717601"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.525
+!MESSAGE Missing superclass "fr.ac6.managedbuild.option.gnu.cross.floatabi" for "fr.ac6.managedbuild.option.gnu.cross.floatabi.394401904"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.525
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level" for "fr.ac6.managedbuild.gnu.c.compiler.option.optimization.level.799170726"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.525
+!MESSAGE Missing superclass "fr.ac6.managedbuild.gnu.c.compiler.option.misc.other" for "fr.ac6.managedbuild.gnu.c.compiler.option.misc.other.39894563"
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2025-02-24 23:08:31.527
+!MESSAGE Missing superclass "fr.ac6.managedbuild.tool.gnu.cross.c.linker.script" for "fr.ac6.managedbuild.tool.gnu.cross.c.linker.script.1997230070"
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 2 0 2025-02-24 23:08:31.648
+!MESSAGE Unknown value type "" for id gnu.c.link.option.libs on tool fr.ac6.managedbuild.tool.gnu.cross.c.linker
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: Unknown serialized value type 
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.deserializeValueType(AbstractCubeIDEProjectConfigurator.java:535)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertTool(AbstractCubeIDEProjectConfigurator.java:567)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertBuildConfiguration(AbstractCubeIDEProjectConfigurator.java:453)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.configure(AbstractCubeIDEProjectConfigurator.java:190)
+	at com.st.stm32cube.ide.mcu.converters.sw4stm32.SW4STM32ToCubeIDEProjectConfigurator.configure(SW4STM32ToCubeIDEProjectConfigurator.java:710)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.importProjectAndChildrenRecursively(SmartImportJob.java:461)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob$1.run(SmartImportJob.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 2 0 2025-02-24 23:08:31.648
+!MESSAGE Unknown value type "" for id gnu.c.link.option.paths on tool fr.ac6.managedbuild.tool.gnu.cross.c.linker
+!STACK 0
+org.eclipse.cdt.managedbuilder.core.BuildException: Unknown serialized value type 
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.deserializeValueType(AbstractCubeIDEProjectConfigurator.java:535)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertTool(AbstractCubeIDEProjectConfigurator.java:567)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.convertBuildConfiguration(AbstractCubeIDEProjectConfigurator.java:453)
+	at com.st.stm32cube.ide.mcu.converters.AbstractCubeIDEProjectConfigurator.configure(AbstractCubeIDEProjectConfigurator.java:190)
+	at com.st.stm32cube.ide.mcu.converters.sw4stm32.SW4STM32ToCubeIDEProjectConfigurator.configure(SW4STM32ToCubeIDEProjectConfigurator.java:710)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.importProjectAndChildrenRecursively(SmartImportJob.java:461)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob$1.run(SmartImportJob.java:228)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 4 0 2025-02-24 23:08:31.649
+!MESSAGE Option fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.noexceptions is no longer supported
+
+!ENTRY com.st.stm32cube.ide.mcu.converters 4 0 2025-02-24 23:08:31.650
+!MESSAGE Option fr.ac6.managedbuild.tool.gnu.cross.cpp.linker.nortti is no longer supported
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-24 23:08:40.366
+!MESSAGE Indexed 'GPIO_IOToggle' (15 sources, 84 headers) in 3 sec: 5,798 declarations; 32,305 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
