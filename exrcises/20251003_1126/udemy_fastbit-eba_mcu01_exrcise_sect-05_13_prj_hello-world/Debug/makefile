@@ -60,7 +60,7 @@ main-build: udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world.elf secon
 
 # Tool invocations
 udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world.elf udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world.map: $(OBJS) $(USER_OBJS) C:\Users\lenny\Repos\GH\Spp\Spp\xesg_experimnts_embeddd-sys_gen\exrcises\20251003_1126\udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world\STM32F407VGTX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\lenny\Repos\GH\Spp\Spp\xesg_experimnts_embeddd-sys_gen\exrcises\20251003_1126\udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+	arm-none-eabi-gcc -o "udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"C:\Users\lenny\Repos\GH\Spp\Spp\xesg_experimnts_embeddd-sys_gen\exrcises\20251003_1126\udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="udemy_fastbit-eba_mcu01_exrcise_sect-05_13_prj_hello-world.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
