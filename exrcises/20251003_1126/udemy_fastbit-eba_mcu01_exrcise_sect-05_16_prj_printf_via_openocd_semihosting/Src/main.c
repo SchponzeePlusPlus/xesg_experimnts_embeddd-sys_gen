@@ -24,9 +24,16 @@
 
 #include <stdio.h>
 
+// prototype
+extern void initialise_monitor_handles(void);
+
 int main(void)
 {
-    /* Loop forever */
+	initialise_monitor_handles();
+
+	printf("Semihosting Test... \n\r");
+
 	printf("Hello World\n");
+	/* Loop forever */
 	for(;;);
 }
